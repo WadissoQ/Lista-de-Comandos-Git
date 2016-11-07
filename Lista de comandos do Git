@@ -8,7 +8,8 @@ ctrl + l = É o comando que limpa a tela do terminal do git.
 git log: Comando para visualizar os logs dos arquivos gravados no repositório. 
 
 git remote add origin + endereço da pasta no github: Esse comando permite apontar para o repositório no github.
-Ou seja, o usuário cria uma página no github e pode direcionar uma página do seu computador local para a pasta do github sem precisar clonar o repositório.
+Ou seja, o usuário cria uma página no github e pode direcionar uma página do seu computador local para a pasta do github sem
+precisar clonar o repositório.
 
 git clone + endereço da pasta no github: Esse comando serve para clonar um projeto no github.
 
@@ -31,4 +32,37 @@ git log -n 3: Comando mostra os três últimos commits.
 
 git log --oneline: Resumo dos commits feitos no projeto.
 
-git log --state: Mostra o resumo dos arquivos alterados com o número de linhas alteradas e removidas. 
+git log --state: Mostra o resumo dos arquivos alterados com o número de linhas alteradas e removidas.
+
+git rm nomedoarquivo: Esse comando serve para remover/deletar um arquivo do repositório. Todo arquivo removido precisa ser
+commitado - Não esquecer disso.
+
+git mv nomeantigo nome_novo: O comando "mv" altera o nome de um arquivo. Ou seja, renomeia o arquivo existente, exemplo:
+
+  git mv algo01.py algoritmo01.py
+
+git checkout -- nomedoarquivo: Esse comando permite desfazer uma alteração em um determinado arquivo, exemplo:
+
+  echo "Mudança no arquivo!" >> arquivo.txt -> Efetuano mudança no arquivo.
+
+git checkout -- arquivo.txt: Cancelando a última alteração do arquivo. Lembrando, as alterações só podem ser refeitas
+se estiverem fora do stage. Ou seja, antes de adicionar o arquivo com o comando -> git add nomedoarquivo.
+
+git reset --hard: Comando para desfazer todas as modificações que você fez.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
