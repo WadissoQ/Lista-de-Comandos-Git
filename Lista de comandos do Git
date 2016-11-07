@@ -26,3 +26,9 @@ Ignorando um diretório inteiro:
 echo "pastaignorada/" >> .gitignore
 
 git commit -am"Rastreando/adicionando e commitando ao mesmo tempo um arquivo."
+
+git log -n 3: Comando mostra os três últimos commits.
+
+git log --oneline: Resumo dos commits feitos no projeto.
+
+git log --state: Mostra o resumo dos arquivos alterados com o número de linhas alteradas e removidas. 
