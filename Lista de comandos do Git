@@ -1,0 +1,28 @@
+Comandos do git
+
+git commit -m"contaúdo da mensagem de commit": Gravação de arquivo no git. Esse comando serve para commitar os arquivos no git.
+O "-m" é referete ao termo "mensseger". Ou seja, mensagem que será gravada no commit.
+
+ctrl + l = É o comando que limpa a tela do terminal do git.
+
+git log: Comando para visualizar os logs dos arquivos gravados no repositório. 
+
+git remote add origin + endereço da pasta no github: Esse comando permite apontar para o repositório no github.
+Ou seja, o usuário cria uma página no github e pode direcionar uma página do seu computador local para a pasta do github sem precisar clonar o repositório.
+
+git clone + endereço da pasta no github: Esse comando serve para clonar um projeto no github.
+
+gitignore: Arquivo para ser criado no git e evitar que determinados arquivos sejam adicionaos.
+Ou seja, o git vai ignorar os arquivos que estuverem dentro dele. 
+
+Exemplo: touch .gitignore (Criar arquivo dentro da pasta desterminada)
+echo "nome do arquivo que vc quer ignorar" >> .gitignore (Escreve dentro do arquivo do gitignore o nome do arquivo que 
+você quer ignorar.).
+
+git add .gitignore: Adicionando o gitignore detro do githubIgnorando todos os arquivos de uma extenção: 
+echo "*.log" >> .gitignore
+
+Ignorando um diretório inteiro:
+echo "pastaignorada/" >> .gitignore
+
+git commit -am"Rastreando/adicionando e commitando ao mesmo tempo um arquivo."
