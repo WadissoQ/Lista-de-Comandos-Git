@@ -50,5 +50,20 @@ se estiverem fora do stage. Ou seja, antes de adicionar o arquivo com o comando 
 
 git reset --hard: Comando para desfazer todas as modificações que você fez.
 
+git branch novo_branch: Comando para criar um novo branch.
 
+git branch: Comando para listar as branchs existentes.
 
+git checkout novo_branch: Comando para mudar de branch.
+
+git checkout -b nova_branch: Comando cria uma nova branch e troca para ela ao mesmo tempo.
+
+git branch -d nova_branch: Comando deleta um branch criada.
+
+OBS: Uma branch só pode ser deletada se o usuário não estiver nela. Ou seja, o desenvolvedor deve mudar de branch com o comando "git checkout master" (por exemplo) e deletar a branch que deseja.
+
+git branch -D nova_branch: O comando usando o "-D" (letra maiúscula) é usando quando existe commit na branch.
+
+git branch --no-merged: Comando para identificar se existe alguma branch não mesclada.
+
+git merge nova_branch -m"Mensagem sobre a mesclagem da branch.": Esse comando mescla a nova_branch ao master.
